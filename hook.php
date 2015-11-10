@@ -30,4 +30,6 @@ try {
 } catch (Longman\TelegramBot\Exception\TelegramException $e) {
     // log telegram errors
     echo $e;
+} catch (\Exception $e) {
+    echo $e->getMessage();
 }
