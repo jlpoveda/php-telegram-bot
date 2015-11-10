@@ -2,9 +2,9 @@
 //Composer Loader
 $loader = require __DIR__.'/vendor/autoload.php';
 
-$API_KEY = 'your_bot_api_key';
-$BOT_NAME = 'namebot';
-$link = 'https://yourdomain/yourpath_to_hook.php';
+$API_KEY = '146668771:AAE9_zVF-YnDco0RcR-xxycUXeh1Cs15E6o';
+$BOT_NAME = 'OfertixItBot';
+$link = 'https://backoffice.ofertix.com/php-telegram-bot/hook.php';
 try {
     // create Telegram API object
     $telegram = new Longman\TelegramBot\Telegram($API_KEY, $BOT_NAME);
