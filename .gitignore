@@ -17,7 +17,6 @@
 /phpunit.xml
 
 # Composer
-vendor/
 
 
 # phpDocumentor Logs #
