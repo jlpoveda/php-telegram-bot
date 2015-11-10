@@ -5,6 +5,7 @@
 .DS_Store
 .idea
 .phpintel
+composer.phar
 *.log
 
 # Local System Files (i.e. cache, logs, etc.) #
@@ -17,6 +18,7 @@
 /phpunit.xml
 
 # Composer
+vendor/
 
 
 # phpDocumentor Logs #
